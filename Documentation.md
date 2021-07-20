@@ -18,14 +18,14 @@ local Tab = Window:Tab("Tab",0000)
 The above ``0000`` in argument 2 is an Image Decal, used for icons on the side of the Menu.
 
 
-## Creating a button
+## Creating a Button
 ```lua
 Tab:Button("Button", function()
    print("This button has been pressed")
 end)
 ```
 
-## Creating a checkbox (toggle)
+## Creating a Checkbox (toggle)
 ```lua
 Tab:Checkbox("Checkbox", true, function(bool)
     print(bool)
@@ -33,7 +33,7 @@ end)
 ```
 The above ``true`` in argument 2, is the default, whether the box is checked or not at the start.
 
-## Creating a color picker
+## Creating a Color Picker
 ``This is currently not an enabled feature in the ShlexLib alpha``
 ```lua
 Tab:ColorPicker("ColorPicker", Color3.fromRGB(255, 255, 255), function(color)
@@ -41,13 +41,18 @@ Tab:ColorPicker("ColorPicker", Color3.fromRGB(255, 255, 255), function(color)
 end)
 ```
 
-## Creating a slider
+## Creating a Slider
 ``This is currently not an enabled feature in the ShlexLib alpha``n\
 No documentation
 
-## Creating a label
+## Creating a Label
 ```lua
 Tab:Label("Label")
+```
+
+## Creating a Paragraph
+```lua
+Tab:Paragraph("Paragraph","Paragraph Content")
 ```
 
 ## Creating an Input (TextBox)
