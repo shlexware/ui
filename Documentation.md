@@ -6,6 +6,9 @@ This documentation is for the prebuild or alpha version of Shlex Library. This i
 local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"),true)()
 ```
 
+### Finding which version you're currently on
+After the Library's main code launches, ShlexLib will `warn` with information on the library's version
+
 ## Creating a Window
 ```lua
 local Window = ShlexLib:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
