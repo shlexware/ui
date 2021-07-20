@@ -11,6 +11,8 @@ local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shle
 local Window = ShlexLib:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
 ```
 
+The loading text(s), are not necessary and can be left `nil` or `false`.
+
 ## Creating a Tab
 ```lua
 local Tab = Window:Tab("Tab",0000)
