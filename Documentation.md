@@ -1,5 +1,5 @@
 # ShlexLib - vB7 Documentation
-
+This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ShlexLib version B7 and below.
 
 ## Starting the Library
 ```lua
