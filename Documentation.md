@@ -1,4 +1,4 @@
-# ShlexLib - B9 Documentation
+# ShlexLib B9 - Documentation
 This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ```ShlexLib version B8``` and below.
 
 ## Starting the Library
