@@ -11,7 +11,7 @@ local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shle
 local Window = ShlexLib:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
 ```
 
-The loading text(s), are not necessary and can be left `nil` or `false`.
+The loading text(s), are not necessary and can be left `nil` or `false`. 
 Other arguments such as `Window` and `WindowSubtitle` are also not necessary, will default to `Shlex Softworks`, `Ui Library` in that respective order.
 
 ## Creating a Tab
