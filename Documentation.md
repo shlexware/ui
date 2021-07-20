@@ -33,7 +33,7 @@ Tab:ColorPicker("ColorPicker", Color3.fromRGB(255, 255, 255), function(color)
 end)
 
 # Creating a slider
-``This is currently not an enabled feature in the ShlexLib alpha``
+``This is currently not an enabled feature in the ShlexLib alpha``n\
 No documentation
 
 # Creating a label
