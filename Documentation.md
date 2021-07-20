@@ -19,14 +19,14 @@ The above ``0000`` in argument 2 is an Image Decal, used for icons on the side o
 
 
 ## Creating a button
-```
+```lua
 Tab:Button("Button", function()
    print("This button has been pressed")
 end)
 ```
 
 ## Creating a checkbox (toggle)
-```
+```lua
 Tab:Checkbox("Checkbox", true, function(bool)
     print(bool)
 end)
@@ -35,7 +35,7 @@ The above ``true`` in argument 2, is the default, whether the box is checked or 
 
 ## Creating a color picker
 ``This is currently not an enabled feature in the ShlexLib alpha``
-```
+```lua
 Tab:ColorPicker("ColorPicker", Color3.fromRGB(255, 255, 255), function(color)
    print(color)
 end)
@@ -46,12 +46,12 @@ end)
 No documentation
 
 ## Creating a label
-```
+```lua
 Tab:Label("Label")
 ```
 
 ## Creating an Input (TextBox)
-```
+```lua
 Tab:Input("Input", function(Text)
    print(Text)
 end)
@@ -59,24 +59,24 @@ end)
 
 ## Creating a Dropdown menu
 ``This is currently not an enabled feature in the ShlexLib alpha``
-```
+```lua
 local Dropdown = Tab:Dropdown("Dropdown", {"Button 1", "Button 2", "Button 3"}, function(SelectedButton)
    print(SelectedButton)
 end)
 ```
 
 ### Adding a new button to the Dropdown
-```
+```lua
 Dropdown:Button("Button")
 ```
 
 ### Removing an existing button from the Dropdown
-```
+```lua
 Dropdown:Remove("Button")
 ```
 
 ## Destroying the Interface
 ``This is currently not an enabled feature in the ShlexLib alpha``
-```
+```lua
 library:Destroy()
 ```
