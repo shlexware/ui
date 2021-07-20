@@ -17,7 +17,6 @@ local Tab = Window:Tab("Tab",0000)
 
 The above ``0000`` in argument 2 is an Image Decal, used for icons on the side of the Menu.
 
-
 ## Notifying the user
 ```lua
 ShlexLib:Notify("NotificationTitle","NotificationContent",0000)
@@ -38,6 +37,7 @@ Tab:Checkbox("Checkbox", true, function(bool)
     print(bool)
 end)
 ```
+
 The above ``true`` in argument 2, is the default, whether the box is checked or not at the start.
 
 ## Creating a Color Picker
