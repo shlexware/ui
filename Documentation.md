@@ -51,7 +51,9 @@ end)
 
 ## Creating a Slider
 ``This is currently not an enabled feature in the ShlexLib alpha``
-No documentation
+```lua
+--No documentation
+```
 
 ## Creating a Label
 ```lua
