@@ -7,7 +7,7 @@ local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shle
 
 ## Creating a Window
 ```lua
-local Window = library:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
+local Window = ShlexLib:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
 ```
 
 ## Creating a Tab
@@ -17,6 +17,13 @@ local Tab = Window:Tab("Tab",0000)
 
 The above ``0000`` in argument 2 is an Image Decal, used for icons on the side of the Menu.
 
+
+## Notifying the user
+```lua
+ShlexLib:Notify("NotificationTitle","NotificationContent",0000)
+```
+
+The above ``0000`` in argument 3 is an Image Decal, used for an icon in the Notification.
 
 ## Creating a Button
 ```lua
