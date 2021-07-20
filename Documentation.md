@@ -1,45 +1,45 @@
-## ShlexLib
+# ShlexLib
 
-# Starting the Library
+## Starting the Library
 local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ShlexLib/main/source"))()
 
 
-# Creating a Window
+## Creating a Window
 local Window = library:Window("Window","WindowSubtitle","LoadingText1","LoadingText2","LoadingText3","LoadingTextFinal")
 
 
-# Creating a Tab
+## Creating a Tab
 local Tab = Window:Tab("Tab",0000)
 
 The above ``0000`` in argument 2 is an Image Decal, used for icons on the side of the Menu.
 
 
-# Creating a button
+## Creating a button
 Tab:Button("Button", function()
    print("This button has been pressed")
 end)
 
-# Creating a checkbox (toggle)
+## Creating a checkbox (toggle)
 Tab:Checkbox("Checkbox", true, function(bool)
     print(bool)
 end)
 
 The above ``true`` in argument 2, is the default, whether the box is checked or not at the start.
 
-# Creating a color picker
+## Creating a color picker
 ``This is currently not an enabled feature in the ShlexLib alpha``
 Tab:ColorPicker("ColorPicker", Color3.fromRGB(255, 255, 255), function(color)
    print(color)
 end)
 
-# Creating a slider
+## Creating a slider
 ``This is currently not an enabled feature in the ShlexLib alpha``n\
 No documentation
 
-# Creating a label
+## Creating a label
 Tab:Label("Label")
 
-# Creating an Input (TextBox)
+## Creating an Input (TextBox)
 Tab:Input("Input", function(Text)
    print(Text)
 end)
@@ -50,10 +50,10 @@ local Dropdown = Tab:Dropdown("Dropdown", {"Button 1", "Button 2", "Button 3"}, 
    print(SelectedButton)
 end)
 
-# Adding a new button to the Dropdown
+ Adding a new button to the Dropdown
 Dropdown:Button("Button")
 
-# Removing an existing button from the Dropdown
+ Removing an existing button from the Dropdown
 Dropdown:Remove("Button")
 
 # Destroying the Interface
