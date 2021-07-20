@@ -12,6 +12,7 @@ local Window = ShlexLib:Window("Window","WindowSubtitle","LoadingText1","Loading
 ```
 
 The loading text(s), are not necessary and can be left `nil` or `false`. 
+
 Other arguments such as `Window` and `WindowSubtitle` are also not necessary, will default to `Shlex Softworks`, `Ui Library` in that respective order.
 
 ## Creating a Tab
