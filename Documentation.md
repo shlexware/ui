@@ -44,18 +44,18 @@ Tab:Input("Input", function(Text)
    print(Text)
 end)
 
-# Creating a Dropdown menu
+## Creating a Dropdown menu
 ``This is currently not an enabled feature in the ShlexLib alpha``
 local Dropdown = Tab:Dropdown("Dropdown", {"Button 1", "Button 2", "Button 3"}, function(SelectedButton)
    print(SelectedButton)
 end)
 
- Adding a new button to the Dropdown
+### Adding a new button to the Dropdown
 Dropdown:Button("Button")
 
- Removing an existing button from the Dropdown
+### Removing an existing button from the Dropdown
 Dropdown:Remove("Button")
 
-# Destroying the Interface
+## Destroying the Interface
 ``This is currently not an enabled feature in the ShlexLib alpha``
 library:Destroy()
