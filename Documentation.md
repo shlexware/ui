@@ -1,5 +1,5 @@
-# ShlexLib B10 - Documentation
-This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ```ShlexLib version B10``` and below.
+# ShlexLib B11 - Documentation
+This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ```ShlexLib version B11``` and below.
 
 ## Starting the Library
 ```lua
@@ -63,8 +63,14 @@ end)
 ## Creating a Slider
 ``This is currently not an enabled feature in the ShlexLib alpha``
 ```lua
---No documentation
+Tab:Slider("Slider",1,10,"ValueName",function(Value)
+    print(Value)
+end)
 ```
+The above ``1`` in argument 2 is the Minimum value for the slider
+
+The above ``10`` in argument 3 is the Maximum value for the slider
+
 
 ## Creating a Label
 ```lua
