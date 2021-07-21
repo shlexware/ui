@@ -3,7 +3,7 @@ This documentation is for the prebuild or alpha version of Shlex Library. This i
 
 ## Starting the Library
 ```lua
-local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"),true)()
+local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"))()
 ```
 
 ### Finding which version you're currently on
