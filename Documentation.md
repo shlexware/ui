@@ -1,5 +1,5 @@
-# ShlexLib B9 - Documentation
-This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ```ShlexLib version B9``` and below.
+# ShlexLib B10 - Documentation
+This documentation is for the prebuild or alpha version of Shlex Library. This is currently verified to be up to date for ```ShlexLib version B10``` and below.
 
 ## Starting the Library
 ```lua
@@ -44,7 +44,9 @@ end)
 ## Creating a Checkbox (toggle)
 ```lua
 Tab:Checkbox("Checkbox", true, function(bool)
-    print(bool)
+   while bool do wait() -- If it's true, it prints "true"
+      print(bool)
+   end
 end)
 ```
 
