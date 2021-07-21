@@ -61,7 +61,6 @@ end)
 ```
 
 ## Creating a Slider
-``This is currently not an enabled feature in the ShlexLib alpha``
 ```lua
 Tab:Slider("Slider",1,10,"ValueName",function(Value)
     print(Value)
