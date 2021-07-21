@@ -32,6 +32,8 @@ ShlexLib:Notify("NotificationTitle","NotificationContent",0000)
 
 The above ``0000`` in argument 3 is an Image Decal, used for an icon in the Notification.
 
+If Domain X is found in-game, it will send an event to that, instead of using native notifications.
+
 ## Creating a Button
 ```lua
 Tab:Button("Button", function()
