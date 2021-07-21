@@ -43,14 +43,14 @@ end)
 
 ## Creating a Checkbox (toggle)
 ```lua
-Tab:Checkbox("Checkbox", true, function(bool)
+Tab:Checkbox("Checkbox", false, function(bool)
    while bool do wait() -- If it's true, it prints "true"
       print(bool)
    end
 end)
 ```
 
-The above ``true`` in argument 2, is the default, whether the box is checked or not at the start.
+The above ``false`` in argument 2, is the default, whether the box is checked or not at the start.
 
 ## Creating a Color Picker
 ``This is currently not an enabled feature in the ShlexLib alpha``
