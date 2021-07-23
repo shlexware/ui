@@ -6,6 +6,8 @@ This documentation is for the prebuild or alpha version of Shlex Library. This i
 local ShlexLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexsoftworks/ui/main/source"))()
 ```
 
+Please note that the library isn't available to the public until launch; we're still working on it.
+
 ### Finding which version you're currently on
 After the Library's main code launches, ShlexLib will `warn` with information on the library's version
 
@@ -62,13 +64,17 @@ end)
 
 ## Creating a Slider
 ```lua
-Tab:Slider("Slider",1,10,"ValueName",function(Value)
+Tab:Slider("Slider",1,10,"ValueName",Color3.fromRGB(55, 95, 167),function(Value)
     print(Value)
 end)
 ```
 The above ``1`` in argument 2 is the Minimum value for the slider
 
 The above ``10`` in argument 3 is the Maximum value for the slider
+
+The above ``ValueName`` in argument 4 is the name of the value for the slider (e.g Speed)
+
+The above ``Color3.fromRGB(55, 95, 167)`` in argument 5 is the Color for the slider
 
 
 ## Creating a Label
